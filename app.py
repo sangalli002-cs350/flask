@@ -19,7 +19,7 @@ def ReturnJSON():
         return jsonify(data)
 
 @app.route('/rhino', methods = ['GET'])
-def ReturnJSON():
+def ReturnRhino():
     return "rhino"
 
 
